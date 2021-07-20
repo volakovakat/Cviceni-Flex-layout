@@ -2,6 +2,7 @@
 
 body {
 	font-family: sans-serif;
+	margin: 20px;
 }
 
 .sloupec {
@@ -15,4 +16,27 @@ body {
 .paticka  { background-color: #9b59b6; }
 
 /* ------------- pod čáru přijdou tvé styly ------------- */
+
+.kontejner {
+	display: flex;
+}
+
+.hlavni {
+	order: 2;
+	flex-grow: 1;
+}
+
+.pravy {
+	order: 3;
+	width: 150px;
+	flex-shrink: 0;
+}
+
+.levy {
+	width: 200px;
+	flex-shrink: 0;
+}
+
+
+
 
